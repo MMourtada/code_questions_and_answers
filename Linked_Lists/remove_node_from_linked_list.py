@@ -21,5 +21,6 @@ class Solution:
         """
         Note this is how we deal with linked lists, which differs from ordinary lists or array in that to remove/change an element,
         it is enough to change its pointer 
+        """
 
 

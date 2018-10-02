@@ -17,6 +17,9 @@ class Solution:
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
-        node.val, node.next = node.next.val, node.next.next   
+        node.val, node.next = node.next.val, node.next.next     
+        """
+        Note this is how we deal with linked lists, which differs from ordinary lists or array in that to remove/change an element,
+        it is enough to change its pointer 
 
 
